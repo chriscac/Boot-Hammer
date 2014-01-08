@@ -283,151 +283,6 @@ ___________________________________________________________*/
 
 
 
-/*	Full width container 
-___________________________________________________________*/
-
-.container-fw {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-/*	Takeovers for full screen coolness
-___________________________________________________________*/
-
-
-
-.takeover {
-		
-	width: 100%;
-	height: 100%;
-	min-height: 500px;
-	color: $drkgrey;
-	overflow: hidden;
-
-	/*background-image: url(hero-2x);*/
-	background-position: center center;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-
-	@media only screen and (max-height: $laptop-height){
-
-		padding-top:$baseunit *5 ;
-		padding-bottom:$baseunit *5 ;
-
-	}
-
-	@media only screen and (max-width: $screen-md){
-		padding-top:$baseunit *5 ;
-	}
-}
-
-
-.blue, .about, .organge, .yellow, .lteblue{
-	h1, h2{
-		color: white;
-	}
-
-	p{
-		color: $midprimary !important;
-	}
-}
-
-.about{
-	height: 90% !important;
-
-}
-
-.blue{
-	background-color: $primary !important;
-}
-
-.orange{
-	background-color: #f17901 !important;
-
-}
-
-.yellow{
-	background-color: #f8ca14 !important;
-}
-
-.ltegreen{
-	background-color: #9ce73b !important;
-
-	h1, h2{
-		
-	}
-
-	p{
-		color: darken(#9ce73b,25%) !important;
-	}
-}
-
-.green{
-	background-color: $green !important;
-
-	h1, h2{
-		
-	}
-
-	p{
-		color: darken($green,25%) !important;
-	}
-}
-
-.lteblue{
-	background-color: #48b0eb !important;
-}
-
-
-
-
-
-
-.takeover-half {
-		
-	width: 100%;
-	height: 25%;
-	min-height: 350px;
-	color: $drkgrey;
-
-	/*background-image: url(hero-2x);*/
-	background-color: white;
-	background-position: center center;
-	background-repeat: no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-
-}
-
-
-// Need this to make takeover work
-
-html, body {
-    width: 100%;
-    height: 100%;
-}
-
-.content {
-	width: 100%;
-	height: 100%;
-}
-
-
-
-
-
-
-
 
 
 
@@ -443,16 +298,16 @@ ___________________________________________________________*/
 // Centering text in the middle of takeover
 
 
-.is-table{
-	display: table;
-	height: 100%;
-	width: 100%;
-}
+	.is-table{
+		display: table;
+		height: 100%;
+		width: 100%;
+	}
 
-.table-cell {
-	display: table-cell;
-	vertical-align: middle;
-}
+	.table-cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
 
 
 
@@ -478,7 +333,7 @@ ___________________________________________________________*/
 		@media only screen and ($retina) {
 			height: 2px;
 			background: none;
-			box-shadow:  inset 1px -1px 0px white, inset 0 0px 1px darken($ltegrey,25%);
+			box-shadow:  inset 1px -1px 0px white, inset 0 0px 1px darken($gray-light,25%);
 			border: 1px  solid transparent;
 		}
 	}

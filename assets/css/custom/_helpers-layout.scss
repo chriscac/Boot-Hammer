@@ -1,0 +1,541 @@
+ 
+
+/*	Margins
+___________________________________________________________*/
+	
+	.mrgtop-none{
+		margin-top: 0;
+	}
+
+	.mrgbtm-none{
+		margin-bottom: 0;
+	}
+	
+
+	.mrgtop-1{
+		margin-top: $baseunit;
+
+		@media only screen and (max-width: $screen-sm) { 
+			margin-top: $baseunit / 1.25;
+		}
+	 }
+
+	.mrgtop-2{
+		margin-top: $baseunit * 2;
+
+		@media only screen and (max-width: $screen-sm) { 
+			margin-top: $baseunit * 1;
+		}
+	}
+
+	.mrgtop-3{
+		margin-top: $baseunit * 3;
+
+		@media only screen and (max-width: $screen-sm) { 
+			margin-top: $baseunit * 1.5;
+		}
+	}
+
+	.mrgtop-4{
+		margin-top: $baseunit * 4;
+
+		@media only screen and (max-width: $screen-sm) { 
+			margin-top: $baseunit * 2;
+		}
+	}
+
+
+	.mrgbtm-1{
+		margin-bottom: $baseunit;
+
+		@media only screen and (max-width: $screen-sm) { 
+			margin-bottom: $baseunit / 1.25;
+		}
+	 }
+
+	.mrgbtm-2{
+		margin-bottom: $baseunit * 2;
+
+		@media only screen and (max-width: $screen-sm) { 
+			margin-bottom: $baseunit * 1;
+		}
+	}
+
+	.mrgbtm-3{
+		margin-bottom: $baseunit * 3;
+
+		@media only screen and (max-width: $screen-sm) { 
+			margin-bottom: $baseunit * 1.5;
+		}
+	}
+
+	.mrgbtm-4{
+		margin-bottom: $baseunit * 4;
+
+		@media only screen and (max-width: $screen-sm) { 
+			margin-bottom: $baseunit * 2;
+		}
+	}
+
+
+
+
+
+
+	@media only screen and (min-width: $screen-sm){
+		.mgntop-sm-1{
+			margin-top: 1em !important;
+		}
+
+		.mgntop-sm-2{
+			margin-top: 2em !important;
+		}
+
+		.mgntop-sm-3{
+			margin-top: 3em !important;
+		}
+
+		.mgntop-sm-4{
+			margin-top: 4em !important;
+		}
+
+		.mgntop-sm-5{
+			margin-top: 5em !important;
+		}
+	}
+
+	.hoz-center{
+		margin-left: auto !important;
+		margin-right: auto !important;
+		float: none;
+	}
+
+
+
+
+
+/*	Offesets on mobile
+___________________________________________________________*/
+
+
+	.col-xs-offset-1 {
+	margin-left: 8.333333333333332%;
+	}
+	.col-xs-offset-2 {
+	margin-left: 16.666666666666664%;
+	}
+	.col-xs-offset-3 {
+	margin-left: 25%;
+	}
+	.col-xs-offset-4 {
+	margin-left: 33.33333333333333%;
+	}
+	.col-xs-offset-5 {
+	margin-left: 41.66666666666667%;
+	}
+	.col-xs-offset-6 {
+	margin-left: 50%;
+	}
+	.col-xs-offset-7 {
+	margin-left: 58.333333333333336%;
+	}
+	.col-xs-offset-8 {
+	margin-left: 66.66666666666666%;
+	}
+	.col-xs-offset-9 {
+	margin-left: 75%;
+	}
+	.col-xs-offset-10 {
+	margin-left: 83.33333333333334%;
+	}
+	.col-xs-offset-11 {
+	margin-left: 91.66666666666666%;
+	}
+
+
+
+
+
+
+
+
+
+/*	Padding
+___________________________________________________________*/
+
+	.padtop-1{
+		padding-top: $baseunit;
+	 }
+
+	.padtop-2{
+		padding-top: $baseunit * 2;
+	}
+
+	.padtop-3{
+		padding-top: $baseunit * 3;
+	}
+
+	.padtop-4{
+		padding-top: $baseunit * 4;
+	}
+
+
+	@media only screen and (max-width: $screen-sm){
+		
+		.padtop-xs-0{
+			padding-top: 0px !important;
+		}
+
+		.padtop-xs-5{
+			padding-top: 5px !important;
+		}
+
+		.padtop-xs-10{
+			padding-top: 10px !important;
+		}
+
+		.padleft-xs-15{
+			padding-left: 15px !important;
+		}
+	}
+
+	@media only screen and (min-width: $screen-md){
+		
+		.padtop-md-0{
+			padding-top: 0px !important;
+		}
+
+		.padtop-md-5{
+			padding-top: 5px !important;
+		}
+
+		.padtop-md-10{
+			padding-top: 10px !important;
+		}
+
+		.padleft-md-15{
+			padding-left: 15px !important;
+		}
+	
+		.padleft-md-25{
+			padding-left: 25px !important;
+		}
+	}
+
+
+
+
+
+
+
+
+/*	Vert Centering
+___________________________________________________________*/	
+	
+	.center-wrapper {
+	  display: table;
+	  position: absolute;
+	}
+	
+	.center-content{
+	  display: table-cell;
+	  vertical-align: middle;
+	}
+		
+	.content {
+	  width: 100%;
+	  height: 80%;
+	}
+
+	
+
+	@media only screen and (max-width: 480px) {
+		
+		.center-wrapper {
+		  position: relative;
+		}
+		
+		.center-content {
+			vertical-align: top;
+		}
+		
+		.content {
+		  width: 100%;
+		  height: auto;
+		}
+	}
+	
+	@media only screen and (max-height: 768px) {
+		
+		.center-wrapper {
+		  position: relative;
+		}
+		
+		.content {
+		  width: 100%;
+		  height: auto;
+		  position: relative;
+		}
+		
+	}
+	
+
+
+
+
+/*	Full width container 
+___________________________________________________________*/
+
+.container-fw {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/*	Takeovers for full screen coolness
+___________________________________________________________*/
+
+
+
+.takeover {
+		
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+	color: $drkgrey;
+	overflow: hidden;
+
+	/*background-image: url(hero-2x);*/
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	@media only screen and (max-height: $laptop-height){
+
+		padding-top:$baseunit *5 ;
+		padding-bottom:$baseunit *5 ;
+
+	}
+
+	@media only screen and (max-width: $screen-md){
+		padding-top:$baseunit *5 ;
+	}
+}
+
+
+.blue, .about, .organge, .yellow, .lteblue{
+	h1, h2{
+		color: white;
+	}
+
+	p{
+		color: $midprimary !important;
+	}
+}
+
+.about{
+	height: 90% !important;
+
+}
+
+.blue{
+	background-color: $primary !important;
+}
+
+.orange{
+	background-color: #f17901 !important;
+
+}
+
+.yellow{
+	background-color: #f8ca14 !important;
+}
+
+.ltegreen{
+	background-color: #9ce73b !important;
+
+	h1, h2{
+		
+	}
+
+	p{
+		color: darken(#9ce73b,25%) !important;
+	}
+}
+
+.green{
+	background-color: $green !important;
+
+	h1, h2{
+		
+	}
+
+	p{
+		color: darken($green,25%) !important;
+	}
+}
+
+.lteblue{
+	background-color: #48b0eb !important;
+}
+
+
+
+
+
+
+.takeover-half {
+		
+	width: 100%;
+	height: 25%;
+	min-height: 350px;
+	color: $drkgrey;
+
+	/*background-image: url(hero-2x);*/
+	background-color: white;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+
+// Need this to make takeover work
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	MISC
+___________________________________________________________*/
+
+// Centering text in the middle of takeover
+
+
+.is-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+	.fixed-bottom{
+		position: fixed;
+		bottom: 0px;
+		width: 100%;
+	
+		@media only screen and (max-height: 768px) {
+			position: relative;
+		}
+	}
+
+	.fixed-top{
+		position: fixed;
+		top: 0px;
+	}
+
+
+
+
+	hr{
+		@media only screen and ($retina) {
+			height: 2px;
+			background: none;
+			box-shadow:  inset 1px -1px 0px white, inset 0 0px 1px darken($ltegrey,25%);
+			border: 1px  solid transparent;
+		}
+	}
+
+
+	@media only screen and (max-width: $screen-md) { 
+	
+		.hidden-xs-span {
+	 		display: none;
+		}
+
+	}
+
+	@media only screen and (max-width: $screen-sm) { 
+		
+		.webapp{
+			overflow: hidden;
+		}
+
+
+		p.pull-right {
+	 		float: none;
+		}
+
+	}
+
+
+
+	.truncate {
+		width: 90%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+
+
+
+
+	.dev-border{
+		border: 1px solid red;
+	}
+
+	.dev-border:nth-of-type(2){
+		border: 1px solid green;
+	}
+
+	.dev-border:nth-of-type(3){
+		border: 1px solid blue;
+	}
+
+
+	.blocker{
+		background-color: none;
+		height: $baseunit *4;
+		margin-bottom: $baseunit *1;
+	}
+
+
+

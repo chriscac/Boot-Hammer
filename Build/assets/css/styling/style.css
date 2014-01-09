@@ -113,6 +113,10 @@ p {
     .lead {
       font-size: 21px; } }
 
+strong {
+  font-family: "ProximaNova-Semibold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal; }
+
 /*	Fontface
 ___________________________________________________________*/
 @font-face {

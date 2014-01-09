@@ -1,0 +1,61 @@
+
+
+
+/*	Avatars
+___________________________________________________________*/
+
+	/* Base styling for user avatars*/
+
+	.avatar{
+		overflow: hidden;
+		background-color: $gray-lighter;
+		background-position: center;	
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+
+		padding: 0px 0px;
+		display: block;
+
+	}
+
+	/* Avatar group is used to encase Avatar and Name */
+
+	.avatar-group{
+		margin-top: 8px;
+		margin-bottom: 8px;
+		padding-top: 4px;
+
+		.avatar-xsm{
+			margin-top: -6px;
+		}
+	}
+
+
+	/* Various sizing */
+
+	.avatar-xsm{
+		width: 32px;
+		height: 32px;
+		margin-right: 16px;
+
+		@media only screen and (max-width: $screen-phone){
+			width: 34px ;
+			height: 34px ;
+		}
+
+	}
+
+
+	.avatar-sm{
+		width: 44px;
+		height: 44px;
+		margin-right: 16px;
+
+		@media only screen and (max-width: $screen-phone){
+			width: 34px ;
+			height: 34px ;
+		}
+
+	}
